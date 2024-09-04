@@ -59,7 +59,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Hit
     clip: {fileID: 8300000, guid: 44e3681b9b55534459dce19e602c1d78, type: 3}
-    volume: 0.363
+    volume: 0.223
     pitch: 0.59
     loop: 0
     source: {fileID: 0}
@@ -72,6 +72,24 @@ MonoBehaviour:
   - name: NewWave
     clip: {fileID: 8300000, guid: cc9d659713d3a324e9fd9bf8b7abe7d2, type: 3}
     volume: 0.273
+    pitch: 0.59
+    loop: 0
+    source: {fileID: 0}
+  - name: BossFight
+    clip: {fileID: 8300000, guid: 45884659dcca66049b1e3cdbd8a69e42, type: 3}
+    volume: 0.273
+    pitch: 0.59
+    loop: 1
+    source: {fileID: 0}
+  - name: Victory
+    clip: {fileID: 8300000, guid: ef369bf682ec22b45b6fe155a867c155, type: 3}
+    volume: 0.33
+    pitch: 0.59
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelLosing
+    clip: {fileID: 8300000, guid: 1ccf141049d486c4d896eaa5edbbfcc7, type: 3}
+    volume: 0.33
     pitch: 0.59
     loop: 0
     source: {fileID: 0}

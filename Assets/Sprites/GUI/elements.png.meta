@@ -368,7 +368,7 @@ TextureImporter:
         width: 403
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,6 +376,153 @@ TextureImporter:
       bones: []
       spriteID: 4b846b6b420a16644a6bda3926a46d32
       internalID: 433100086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_4
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 837
+        width: 498
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b2c81e8ae56894aaf64539b943ba75
+      internalID: 921178058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2051
+        width: 176
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef7e893035f4b44bb55e40ba1cd04ad
+      internalID: 1373153373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 374
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13367fcd84f60a44b8e7f67b7e2ebdd
+      internalID: -41721468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_6
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1214
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8efb342875dc3446989132edfc17a2e
+      internalID: 2031978038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_8
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 710
+        width: 100
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e08bc206a7d6f4c8550252ad0026fc
+      internalID: 1504392389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1993
+        width: 134
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4ce8e8fb456c408dcd673031d3687
+      internalID: 1912793007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_10
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1992
+        width: 134
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f460bed520a348af4a3ae9698d715
+      internalID: -262188015
       vertices: []
       indices: 
       edges: []
@@ -393,13 +540,20 @@ TextureImporter:
     nameFileIdTable:
       elements_3: 433100086
       ScoreBoard: 21300006
+      elements_7: -1318175178
+      elements_5: 1373153373
       elements_2: 1244576602
+      elements_6: 2031978038
       fireballTower: 21300004
       rockTower: 21300000
       TowerDisplay: 21300010
+      elements_8: 1504392389
+      elements_10: -262188015
       castleTower: 21300002
       elements_1: 528286001
       PlayButton: 21300008
+      elements_9: 1912793007
+      elements_4: 921178058
       elements_0: 100308928
   spritePackingTag: 
   pSDRemoveMatte: 0

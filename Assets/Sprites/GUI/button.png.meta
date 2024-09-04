@@ -104,6 +104,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,7 +128,7 @@ TextureImporter:
         width: 473
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,6 +136,27 @@ TextureImporter:
       bones: []
       spriteID: 02305410000000000800000000000000
       internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4553
+        width: 277
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec2be4819ed50e43a3d7fe71329be4a
+      internalID: 1514972294
       vertices: []
       indices: 
       edges: []
@@ -3894,7 +3927,7 @@ TextureImporter:
       - {x: 506.1125, y: 3691.6777}
       - {x: 498.77753, y: 3662.3496}
     bones: []
-    spriteID: 
+    spriteID: 9bbc7067dae704449b39bc7e4a483fa3
     internalID: 0
     vertices: []
     indices: 
@@ -3903,6 +3936,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Button: 21300000
+      button_0: 1514972294
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
