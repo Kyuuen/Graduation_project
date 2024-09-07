@@ -14,6 +14,12 @@ public class InfoScene : MonoBehaviour
     public Text title;
 
     GameObject selectedStack;
+
+    private void Awake()
+    {
+        CameraResizer(Camera.main);
+    }
+
     public void GamePlay()
     {
         backBtn.SetActive(true);
@@ -52,5 +58,20 @@ public class InfoScene : MonoBehaviour
         selectedStack = enemiesStack;
     }
 
-    
+    public void CameraResizer(Camera camera)
+    {
+        float baseWidth = 1920f;
+        float baseHeight = 1080f;
+
+        // Calculate the base aspect ratio
+        float baseAspectRatio = baseWidth / baseHeight;
+
+        // Calculate the current aspect ratio
+        float currentAspectRatio = (float)Screen.width / Screen.height;
+        // Calculate the scaling factor to maintain the aspect ratio
+        float scale = baseAspectRatio / currentAspectRatio;
+        // Adjust the camera's orthographic size based on the scaling factor
+        camera.orthographicSize = camera.orthographicSize * scale;
+        // Divide by 200 because orthographicSize represents half the height in world units.
+    }
 }
